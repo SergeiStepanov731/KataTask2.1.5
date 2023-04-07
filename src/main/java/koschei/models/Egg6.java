@@ -8,13 +8,15 @@ public class Egg6 {
 
     private Needle7 needle;
 
+    @Autowired
+    public void setOcean(Needle7 needle) {
+        this.needle = needle;
+    }
+
     @Override
     public String toString() {
         return ", в яйце иголка " + needle.toString();
     }
 
-    @Autowired
-    public void setOcean(Needle7 needle) {
-        this.needle = needle;
-    }
+
 }

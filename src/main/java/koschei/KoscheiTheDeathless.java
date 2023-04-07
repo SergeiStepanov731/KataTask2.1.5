@@ -13,8 +13,6 @@ public class KoscheiTheDeathless {
         return "На свете есть океан , " + ocean.toString();
     }
 
-
-
     @Autowired
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
